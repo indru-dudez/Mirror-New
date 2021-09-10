@@ -26,6 +26,7 @@ class _BotCommands:
         self.AddSudoCommand = getCommand('ADDSUDO_BOT', 'addsudo')
         self.RmSudoCommand = getCommand('RMSUDO_BOT', 'rmsudo')
         self.RestartCommand = getCommand('RESTART_BOT', 'restart')
+        self.SpeedCommand = getCommand('SPEED_BOT', 'speedtest')
         self.StatsCommand = getCommand('STATS_BOT', 'stats')
         self.HelpCommand = getCommand('HELP_BOT', 'help')
         self.LogCommand = getCommand('LOG_BOT', 'logs')
